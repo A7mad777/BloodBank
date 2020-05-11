@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="معلوماتي" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_notifications_none_black_24dp"
+        android:title="إعدادات الإشعارات" />
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="المفضله" />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="الرئيسيه" />
+    <item
+        android:id="@+id/instruction"
+        android:icon="@drawable/ic_format_instructions_black_24dp"
+        android:title="تعليمات الإستخدام" />
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/ic_chat_bubble_outline_black_24dp"
+        android:title="إبلاغ" />
+    <item
+
+        android:id="@+id/ContactUs"
+        android:icon="@drawable/ic_mail_contact_black_24dp"
+        android:title="تــواصل مــعنا" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_turned_in_not_black_24dp"
+        android:title="عن التطـــبيق" />
+    <item
+        android:id="@+id/review"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="تقيــيــم التطبيق علي المتجر" />
+    <item
+        android:id="@+id/signOut"
+        android:icon="@drawable/ic_signout_black_24dp"
+        android:title="تســجيل الخروج"
+
+        />
+    </group>
+</menu>
